@@ -1,10 +1,13 @@
 import React from 'react';
 
+// Components
+import SearchBar from './SearchBar';
+
 const App = () => {
   return (
-    <div>
-      <span>App</span>
-    </div>
+    <React.Fragment>
+      <SearchBar />
+    </React.Fragment>
   );
 };
 
